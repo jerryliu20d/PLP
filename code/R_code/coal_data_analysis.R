@@ -149,7 +149,7 @@ for(i in 0:3){
                                     #     inits = jags.inits,
                                     parameters.to.save = jags.par,
                                     model.file = model.jags,
-                                    n.iter = 20*1000,
+                                    n.iter = 100*1000,
                                     n.burnin = 10000,
                                     n.chain = 1,
                                     DIC = TRUE
